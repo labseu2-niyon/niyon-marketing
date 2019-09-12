@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "alias": ["niyon"],
+    "builds": [
+        {
+            "use": "@now/next",
+            "src": "next.config.js" 
+        }
+    ]
+}
