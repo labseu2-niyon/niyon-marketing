@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "alias": ["niyon"],
+    "alias": ["niyon", "niyonapp.com", "www.niyonapp.com"],
     "builds": [
         {
             "use": "@now/next",
