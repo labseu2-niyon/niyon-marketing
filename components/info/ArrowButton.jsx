@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function ArrowButton() {
   const [hovered, setHovered] = useState(false);
   return (
-    <a href="https://niyonapp.now.sh/auth/signup">
+    <a href="https://app.niyonapp.com/auth/signup">
       <button
         type="button"
         onMouseOver={() => setHovered(true)}

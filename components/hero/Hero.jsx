@@ -7,7 +7,7 @@ import Curve from './Curve';
 const text = {
   title: 'Find a mentor.',
   text: ['Niyon is a platform for connecting young', 'professionals with mentors in West Africa.'],
-  link: 'https://niyonapp.now.sh/auth/signup',
+  link: 'https://app.niyonapp.com/auth/signup',
 };
 
 const background = '#66c23e';

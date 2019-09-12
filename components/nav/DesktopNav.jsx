@@ -8,7 +8,7 @@ function DesktopNav({ scrolled }) {
     <div className="desk-nav">
       <Link href="/"><a>Home</a></Link>
       <a href="">Contact</a>
-      <a href="https://niyonapp.now.sh">
+      <a href="https://app.niyonapp.com">
         <button type="button" className="login-btn">
           Sign In
         </button>

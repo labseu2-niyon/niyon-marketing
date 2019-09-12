@@ -17,7 +17,7 @@ const pages = [{
 const getNiyonText = {
   title: 'Get Niyon',
   text: ['Sign up for Niyon today'],
-  link: 'https://niyonapp.now.sh/auth/signup',
+  link: 'https://app.niyonapp.com/auth/signup',
 };
 
 function Home() {

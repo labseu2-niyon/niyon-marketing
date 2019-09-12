@@ -10,7 +10,7 @@ function MobileMenu({ open }) {
       </div>
       <div className="link"><a>Contact</a></div>
       <div className="link">
-        <a href="https://niyonapp.now.sh">
+        <a href="https://app.niyonapp.com">
           <button type="button" className="signin-btn-mob">Sign In</button>
         </a>
       </div>
