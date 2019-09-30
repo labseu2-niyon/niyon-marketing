@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+
 import Logo from './Logo';
 import DesktopNav from './DesktopNav';
 import MobileNav from './MobileNav';
@@ -18,7 +19,7 @@ function Nav() {
   return (
     <header className="wrapper">
       <div>
-        <Logo />
+        <Logo scrolled={scrolled} />
       </div>
       <nav>
         <DesktopNav scrolled={scrolled} />

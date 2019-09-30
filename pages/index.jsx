@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from '../components/nav/Nav';
 import Hero from '../components/hero/Hero';
 import Info from '../components/info/Info';
 import Get from '../components/get/Get';
@@ -23,7 +22,6 @@ const getNiyonText = {
 function Home() {
   return (
     <>
-      <Nav />
       <Hero />
       {pages.map(text => <Info {...text} />)}
       <Get {...getNiyonText} />

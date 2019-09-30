@@ -7,7 +7,7 @@ function DesktopNav({ scrolled }) {
   return (
     <div className="desk-nav">
       <Link href="/"><a>Home</a></Link>
-      <a href="">Contact</a>
+      <Link href="/about"><a>About</a></Link>
       <a href="https://app.niyonapp.com">
         <button type="button" className="login-btn">
           Sign In
