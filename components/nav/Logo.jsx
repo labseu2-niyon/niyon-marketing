@@ -1,17 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import { withRouter } from 'next/router';
 
-function Logo({ noText }) {
+function Logo({ noText, router, scrolled }) {
   return (
     <Link href="/">
       <a>
-        <img src="/static/niyon-logo.png" alt="niyon logo" height={40} />
+        { (router.route === '/about' && !scrolled)
+          ? <img src="/static/niyon-logo.png" alt="niyon logo" height={40} style={{ filter: 'invert(1) brightness(1000%)' }} />
+          : <img src="/static/niyon-logo.png" alt="niyon logo" height={40} /> }
         { !noText && (
         <h1
           style={{
             fontFamily: 'Lato',
-            color: '#000',
+            color: (router.route === '/about' && !scrolled) ? '#fff' : '#000',
             cursor: 'pointer',
             fontSize: 35,
             marginLeft: 8,
@@ -56,4 +59,4 @@ Logo.defaultProps = {
   noText: false,
 };
 
-export default Logo;
+export default withRouter(Logo);
